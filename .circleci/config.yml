@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: build dependencies
-          command: bundle install
+          command: bundle update github-pages
 
       - run:
           name: build the jekyll site
